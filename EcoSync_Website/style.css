@@ -1,0 +1,150 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #424242;
+    height: 100%;
+}
+
+/* Navbar */
+nav {
+    background-color: #88b88a; /* Dark Green */
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    color: rgb(17, 63, 42) !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(19, 75, 63) !important;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #909eda !important; /* Yellow hover color */
+}
+
+.navbar-toggler-icon {
+    background-color: rgba(238, 236, 236, 0); /* Toggler icon color */
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    min-height: 500px; /* Ensures hero section has content even on small screens */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text contrast */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.hero-content .lead {
+    font-size: 1.125rem;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.hero-content .btn {
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    background-color: #b9f2fcef;
+    border: none;
+    color: rgb(38, 68, 3);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hero-content .btn:hover {
+    background-color: #7fc0b0;
+}
+
+/* Features Section */
+#features {
+    background-color: #F5F5F5;
+    padding: 60px 0;
+}
+
+#features .col-md-4 {
+    margin-bottom: 30px;
+}
+
+#features h3 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+#features p {
+    font-size: 1rem;
+    color: #757575;
+}
+
+/* CTA Section */
+.cta-section {
+    background-color: #4CAF50;
+    color: white;
+    padding: 60px 0;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-section .btn {
+    font-size: 1.2rem;
+    padding: 15px 40px;
+    background-color: #388E3C;
+    border: none;
+    color: white;
+}
+
+.cta-section .btn:hover {
+    background-color: #2C6B2F;
+}
+
+/* Footer */
+footer {
+    background-color: #212121;
+    color: white;
+}
