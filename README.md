@@ -14,8 +14,8 @@ https://leafmind-ecosync.netlify.app/
 
 ## 🚀 Project Objectives
 
-- Generate prompts for product features, user guidance, and investor pitches
-- Design a frontend landing page for a virtual plant-care solution
+- Generated prompts for product features, market overview, and sentiment analysis
+- Designed a frontend landing page for a smart plant-care solution
 
 ---
 
@@ -33,7 +33,7 @@ https://leafmind-ecosync.netlify.app/
 
 ## 🧪 Technologies Used
 
-- **Frontend**: HTML5, CSS3
+- **Frontend**: HTML5, CSS3, WatsonX, ChatGPT, Gemini
 - **Prompt Layer**: Manual prompt crafting for LLMs (like ChatGPT/GPT-4)
 
 ---
